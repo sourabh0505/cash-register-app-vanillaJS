@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+    <h1 id="heading">Cash Register Manager</h1>
+    <div id="div-1">Enter the bill amount and cash given by the customer and know minimum number of notes return to the
+        customer.</div>
+    <h2 id="heading-2">Bill Amount:</h2>
+    <input type="text" id="bill-amount">
+
+    <h2 id="heading-2">Cash Given:</h2>
+    <input type="number" id="cash-given">
+
+    <button id="evaluate-btn">Evaluate</button>
+    <p id="error-message"></p>
+    <label id="change">Return Change</label>
+
+        <table id="change-table">
+            <tr>
+                <th>No.of notes</th>
+                <td id="no-of-notes"></td>
+                <td id="no-of-notes"></td>
+                <td id="no-of-notes"></td>
+                <td id="no-of-notes"></td>
+                <td id="no-of-notes"></td>
+                <td id="no-of-notes"></td>
+                <td id="no-of-notes"></td>
+                <td id="no-of-notes"></td>
+            </tr>
+            <tr>
+                <th>Notes</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>50</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
+        </table>
+    </div>
+
+    <footer>
+        <div id="about"><h1>About</h1>
+        This is a web application to tell the no. of notes to be returned to the customer on the basis of the bill amount and the cash given.</div>
+    </footer>
+</body>
+<script src="cashregister.js"></script>
+
+</html>
